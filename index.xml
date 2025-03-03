@@ -2,11 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Instrument Company</title>
-    <link>https://bmelowens.github.io/website/</link>
+    <link>http://theinstrumentcompany.com/</link>
     <description>Recent content on The Instrument Company</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://bmelowens.github.io/website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Mar 2025 12:19:17 -0600</lastBuildDate>
+    <atom:link href="http://theinstrumentcompany.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://theinstrumentcompany.com/privacy/</link>
+      <pubDate>Mon, 03 Mar 2025 12:19:17 -0600</pubDate>
+      <guid>http://theinstrumentcompany.com/privacy/</guid>
+      <description>&lt;p&gt;The Instrument Company is committed to honoring the privacy of our customers and visitors to this web site. We do not sell, rent, or loan your personally identifiable information to any third party.&lt;/p&gt;&#xA;&lt;p&gt;Information Automatically Collected and Stored&#xA;As with any web site you visit on the Internet, the hosting server does collect certain system information from its users. This site automatically stores the following information during your visit:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;the Internet location (IP address)&lt;/li&gt;&#xA;&lt;li&gt;which pages were last visited&lt;/li&gt;&#xA;&lt;li&gt;the date and time of the visit&lt;/li&gt;&#xA;&lt;li&gt;the software (web browser) used to visit our site&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The information collected is not associated with your name or any other information you voluntarily provide. This information may be used to help diagnose problems with the web server, derive usage statistics, and to administer our web site. Usage statistics are only used as aggregated data and not to identify individuals accessing the web sites.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

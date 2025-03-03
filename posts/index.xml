@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on The Instrument Company</title>
-    <link>https://bmelowens.github.io/website/posts/</link>
+    <link>http://theinstrumentcompany.com/posts/</link>
     <description>Recent content in Posts on The Instrument Company</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://bmelowens.github.io/website/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://theinstrumentcompany.com/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
