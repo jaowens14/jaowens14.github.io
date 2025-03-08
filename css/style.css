@@ -1,4 +1,5 @@
-.column-1, .column-2 {
+.column-1,
+.column-2 {
   width: 50%;
   float: left;
   padding: 5px;
@@ -8,7 +9,7 @@
   width: 350px;
   height: 260px;
   background-color: #dddee0;
-  color: rgb(104, 104, 104);
+  color: rgb(184, 16, 16);
   padding: 5px;
   margin: 28px;
   border-radius: 4px;
@@ -31,7 +32,12 @@ body {
   margin: 0
 }
 
-article, aside, footer, header, nav, section {
+article,
+aside,
+footer,
+header,
+nav,
+section {
   display: block
 }
 
@@ -40,7 +46,9 @@ h1 {
   margin: 0.67em 0
 }
 
-figcaption, figure, main {
+figcaption,
+figure,
+main {
   display: block
 }
 
@@ -71,15 +79,19 @@ abbr[title] {
   text-decoration: underline dotted
 }
 
-b, strong {
+b,
+strong {
   font-weight: inherit
 }
 
-b, strong {
+b,
+strong {
   font-weight: bolder
 }
 
-code, kbd, samp {
+code,
+kbd,
+samp {
   font-family: monospace, monospace;
   font-size: 1em
 }
@@ -97,7 +109,8 @@ small {
   font-size: 80%
 }
 
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -112,7 +125,8 @@ sup {
   top: -0.5em
 }
 
-audio, video {
+audio,
+video {
   display: inline-block
 }
 
@@ -129,31 +143,46 @@ svg:not(:root) {
   overflow: hidden
 }
 
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   font-family: sans-serif;
   font-size: 100%;
   line-height: 1.15;
   margin: 0
 }
 
-button, input {
+button,
+input {
   overflow: visible
 }
 
-button, select {
+button,
+select {
   text-transform: none
 }
 
-button, html [type="button"], [type="reset"], [type="submit"] {
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button
 }
 
-button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0
 }
 
-button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText
 }
 
@@ -179,12 +208,14 @@ textarea {
   overflow: auto
 }
 
-[type="checkbox"], [type="radio"] {
+[type="checkbox"],
+[type="radio"] {
   box-sizing: border-box;
   padding: 0
 }
 
-[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto
 }
 
@@ -193,7 +224,8 @@ textarea {
   outline-offset: -2px
 }
 
-[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration {
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none
 }
 
@@ -202,7 +234,8 @@ textarea {
   font: inherit
 }
 
-details, menu {
+details,
+menu {
   display: block
 }
 
@@ -226,12 +259,14 @@ html {
   box-sizing: border-box
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit
 }
 
 body {
-  background: #fff;
+  background: #ffffff;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased
 }
@@ -245,7 +280,8 @@ hr {
   margin-bottom: 24px
 }
 
-ul, ol {
+ul,
+ol {
   margin-top: 0;
   margin-bottom: 24px;
   padding-left: 24px
@@ -259,7 +295,8 @@ ol {
   list-style: decimal
 }
 
-li>ul, li>ol {
+li>ul,
+li>ol {
   margin-bottom: 0
 }
 
@@ -293,7 +330,8 @@ figcaption {
   padding: 8px 0
 }
 
-img, svg {
+img,
+svg {
   display: block
 }
 
@@ -311,15 +349,18 @@ th {
   text-align: left
 }
 
-th, td {
+th,
+td {
   padding: 10px 16px
 }
 
-th:first-child, td:first-child {
+th:first-child,
+td:first-child {
   padding-left: 0
 }
 
-th:last-child, td:last-child {
+th:last-child,
+td:last-child {
   padding-right: 0
 }
 
@@ -341,7 +382,11 @@ body {
   font-size: 1rem
 }
 
-body, button, input, select, textarea {
+body,
+button,
+input,
+select,
+textarea {
   font-family: "Hind Vadodara", sans-serif
 }
 
@@ -350,68 +395,102 @@ a {
   text-decoration: underline
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
   outline: 0;
   text-decoration: none
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   clear: both;
   color: #1F2B35;
   font-family: "Mukta", sans-serif;
   font-weight: 500
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: 42px;
   line-height: 52px;
   letter-spacing: -0.1px
 }
 
 @media (min-width: 641px) {
-  h1, .h1 {
+
+  h1,
+  .h1 {
     font-size: 56px;
     line-height: 66px;
     letter-spacing: -0.1px
   }
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 36px;
   line-height: 46px;
   letter-spacing: -0.1px
 }
 
 @media (min-width: 641px) {
-  h2, .h2 {
+
+  h2,
+  .h2 {
     font-size: 42px;
     line-height: 52px;
     letter-spacing: -0.1px
   }
 }
 
-h3, .h3, blockquote {
+h3,
+.h3,
+blockquote {
   font-size: 24px;
   line-height: 34px;
   letter-spacing: -0.1px
 }
 
 @media (min-width: 641px) {
-  h3, .h3, blockquote {
+
+  h3,
+  .h3,
+  blockquote {
     font-size: 36px;
     line-height: 46px;
     letter-spacing: -0.1px
   }
 }
 
-h4, h5, h6, .h4, .h5, .h6 {
+h4,
+h5,
+h6,
+.h4,
+.h5,
+.h6 {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: -0.1px
 }
 
 @media (min-width: 641px) {
-  h4, h5, h6, .h4, .h5, .h6 {
+
+  h4,
+  h5,
+  h6,
+  .h4,
+  .h5,
+  .h6 {
     font-size: 24px;
     line-height: 34px;
     letter-spacing: -0.1px
@@ -437,7 +516,9 @@ h4, h5, h6, .h4, .h5, .h6 {
     letter-spacing: -0.1px
   }
 
-  .h4-mobile, .h5-mobile, .h6-mobile {
+  .h4-mobile,
+  .h5-mobile,
+  .h6-mobile {
     font-size: 20px;
     line-height: 30px;
     letter-spacing: -0.1px
@@ -452,7 +533,18 @@ h4, h5, h6, .h4, .h5, .h6 {
   color: #6F8394
 }
 
-.text-light h1, .text-light h2, .text-light h3, .text-light h4, .text-light h5, .text-light h6, .text-light .h1, .text-light .h2, .text-light .h3, .text-light .h4, .text-light .h5, .text-light .h6 {
+.text-light h1,
+.text-light h2,
+.text-light h3,
+.text-light h4,
+.text-light h5,
+.text-light h6,
+.text-light .h1,
+.text-light .h2,
+.text-light .h3,
+.text-light .h4,
+.text-light .h5,
+.text-light .h6 {
   color: #fff !important
 }
 
@@ -468,17 +560,26 @@ h4, h5, h6, .h4, .h5, .h6 {
   letter-spacing: -0.1px
 }
 
-h1, h2, .h1, .h2 {
+h1,
+h2,
+.h1,
+.h2 {
   margin-top: 48px;
   margin-bottom: 16px
 }
 
-h3, .h3 {
+h3,
+.h3 {
   margin-top: 36px;
   margin-bottom: 12px
 }
 
-h4, h5, h6, .h4, .h5, .h6 {
+h4,
+h5,
+h6,
+.h4,
+.h5,
+.h6 {
   margin-top: 24px;
   margin-bottom: 4px
 }
@@ -488,7 +589,10 @@ p {
   margin-bottom: 24px
 }
 
-dfn, cite, em, i {
+dfn,
+cite,
+em,
+i {
   font-style: italic
 }
 
@@ -520,11 +624,27 @@ address {
   margin: 0 0 24px
 }
 
-pre, pre h1, pre h2, pre h3, pre h4, pre h5, pre h6, pre .h1, pre .h2, pre .h3, pre .h4, pre .h5, pre .h6 {
+pre,
+pre h1,
+pre h2,
+pre h3,
+pre h4,
+pre h5,
+pre h6,
+pre .h1,
+pre .h2,
+pre .h3,
+pre .h4,
+pre .h5,
+pre .h6 {
   font-family: "Courier 10 Pitch", Courier, monospace
 }
 
-pre, code, kbd, tt, var {
+pre,
+code,
+kbd,
+tt,
+var {
   background: #F6F8FA
 }
 
@@ -539,17 +659,22 @@ pre {
   margin-bottom: 24px
 }
 
-code, kbd, tt, var {
+code,
+kbd,
+tt,
+var {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
   font-size: 16px;
   padding: 2px 4px
 }
 
-abbr, acronym {
+abbr,
+acronym {
   cursor: help
 }
 
-mark, ins {
+mark,
+ins {
   text-decoration: none
 }
 
@@ -559,16 +684,22 @@ small {
   letter-spacing: -0.1px
 }
 
-b, strong {
+b,
+strong {
   font-weight: 700
 }
 
-button, input, select, textarea, label {
+button,
+input,
+select,
+textarea,
+label {
   font-size: 18px;
   line-height: 27px
 }
 
-.container, .container-sm {
+.container,
+.container-sm {
   width: 100%;
   margin: 0 auto;
   padding-left: 16px;
@@ -576,7 +707,9 @@ button, input, select, textarea, label {
 }
 
 @media (min-width: 481px) {
-  .container, .container-sm {
+
+  .container,
+  .container-sm {
     padding-left: 24px;
     padding-right: 24px
   }
@@ -616,7 +749,7 @@ button, input, select, textarea, label {
   line-height: 16px;
   text-transform: uppercase;
   text-decoration: none;
-  background-color: #fff;
+  background-color: #ffffff;
   color: #0081F6 !important;
   border: none;
   height: auto;
@@ -1175,7 +1308,8 @@ button, input, select, textarea, label {
   padding: 8px 24px
 }
 
-.header-links a:not(.button):hover, .header-links a:not(.button):active {
+.header-links a:not(.button):hover,
+.header-links a:not(.button):active {
   color: #fff
 }
 
@@ -1213,7 +1347,8 @@ button, input, select, textarea, label {
   padding-bottom: 40px
 }
 
-.hero-illustration img, .hero-illustration svg {
+.hero-illustration img,
+.hero-illustration svg {
   width: 100%;
   max-width: 320px;
   height: auto;
@@ -1248,7 +1383,8 @@ button, input, select, textarea, label {
     padding-bottom: 0
   }
 
-  .hero-illustration img, .hero-illustration svg {
+  .hero-illustration img,
+  .hero-illustration svg {
     max-width: none;
     width: 528px
   }
@@ -1517,7 +1653,8 @@ main {
   text-decoration: none
 }
 
-.site-footer a:hover, .site-footer a:active {
+.site-footer a:hover,
+.site-footer a:active {
   color: #6F8394;
   text-decoration: underline
 }
@@ -1534,18 +1671,24 @@ main {
   background: rgba(255, 255, 255, 0.08)
 }
 
-.footer-brand, .footer-links, .footer-social-links, .footer-copyright {
+.footer-brand,
+.footer-links,
+.footer-social-links,
+.footer-copyright {
   flex: none;
   width: 100%;
   display: inline-flex;
   justify-content: center
 }
 
-.footer-brand, .footer-links, .footer-social-links {
+.footer-brand,
+.footer-links,
+.footer-social-links {
   margin-bottom: 24px
 }
 
-.footer-links li+li, .footer-social-links li+li {
+.footer-links li+li,
+.footer-social-links li+li {
   margin-left: 16px
 }
 
@@ -1562,15 +1705,20 @@ main {
     justify-content: space-between
   }
 
-  .footer-brand, .footer-links, .footer-social-links, .footer-copyright {
+  .footer-brand,
+  .footer-links,
+  .footer-social-links,
+  .footer-copyright {
     flex: 50%
   }
 
-  .footer-brand, .footer-copyright {
+  .footer-brand,
+  .footer-copyright {
     justify-content: flex-start
   }
 
-  .footer-links, .footer-social-links {
+  .footer-links,
+  .footer-social-links {
     justify-content: flex-end
   }
 
