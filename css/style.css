@@ -1,15 +1,11 @@
 .column-1,
 .column-2 {
-  width: 50%;
+  width: 30%;
   float: left;
-  padding: 5px;
+  padding: 10px;
 }
 
-.column-3 {
-  width: 50%;
-  float: inline-end;
-  padding: 5px;
-}
+
 
 .box {
   width: 350px;
@@ -1199,7 +1195,7 @@ label {
   border-radius: 4px;
   cursor: pointer;
   justify-content: center;
-  padding: 16px 32px;
+  padding: 16px 16px;
   height: 48px;
   text-align: center;
   white-space: nowrap
@@ -1610,7 +1606,7 @@ label {
   }
 
   .body-wrap {
-    background: #ffffff;
+    background: #f0ead07c;
     overflow: hidden;
     display: flex;
     flex-direction: column;
